@@ -4,6 +4,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+
+  
 }
 fieldset {
   background-color: pink;
@@ -21,3 +23,26 @@ fieldset {
   width: 300px;
   background-image: radial-gradient(red, white, rgb(105, 214, 41));
 }
+
+@keyframes hamzah {
+
+ 0% background-image: url:{"image.png"}
+
+25% background-image: url:{"image copy.png"}
+
+50% background-image: url:{"image copy 2.png"}
+
+75% background-image: url:{"image copy 3.png"}
+
+100% background-image: url:{"image copy 4.png"}
+
+
+
+ The element to apply the animation to
+ div {
+    width: 100px; 
+height: 100px; 
+background-color: red; 
+animation-name: hamzah; 
+animation-duration: 4s; infinity
+ }
