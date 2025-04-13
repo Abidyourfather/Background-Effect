@@ -1,0 +1,23 @@
+body {
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+fieldset {
+  background-color: pink;
+  border: 5px black;
+}
+.lg {
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(to bottom, red, orange, blue);
+}
+.rg {
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  background-image: radial-gradient(red, white, rgb(105, 214, 41));
+}
